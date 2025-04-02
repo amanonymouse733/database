@@ -30,6 +30,11 @@ conditions:
   pattern: SDR
   required: true
   type: release_title
+- name: Not HDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR
 tests:
 - conditionResults:
   - matches: false
