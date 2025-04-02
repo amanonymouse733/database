@@ -9,4 +9,14 @@ conditions:
   pattern: HDR
   required: true
   type: release_title
+- name: Not HDR10
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10
+- name: Not HDR10+
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10+
 tests: []
