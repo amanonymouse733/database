@@ -1,0 +1,12 @@
+name: HDR
+description: Matches the 'HDR' Regex Pattern
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: HDR
+  negate: false
+  pattern: HDR
+  required: true
+  type: release_title
+tests: []
